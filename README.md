@@ -12,6 +12,7 @@
 其余部分方法方法参考了 [七牛官方 C# SDK 7.2.14](https://github.com/qiniu/csharp-sdk/releases/tag/v7.2.14)
 
 ### 实现了以下几个内容：
+- 去掉了 PutPolicy 中的 SetExpires、ToJsonString 两个方法（利用自定义解析器对 PutPolicy 进行 JSON 序列化）
 - 获取上传/下载/管理 Token
 - 实现了单个文件生命周期管理 UpdateLifecycle
 - 自动获取 Zone（含手动设置 Zone）
