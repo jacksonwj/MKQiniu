@@ -13,6 +13,7 @@
 
 ### 实现了以下几个内容：
 - 去掉了 PutPolicy 中的 SetExpires、ToJsonString 两个方法（利用自定义解析器对 PutPolicy 进行 JSON 序列化）
+- 优化了部分代码
 - 获取上传/下载/管理 Token
 - 实现了单个文件生命周期管理 UpdateLifecycle
 - 自动获取 Zone（含手动设置 Zone）
